@@ -2,7 +2,7 @@
 #### PowerShell Scripts that can potentially fix the shortcut problems in Start Menu for those who installed softwares on another drive before the update.
 \
 **Please check out the article written here to make sure you understand what it's for.**  
-[Article Link](#)
+[Article Link](http://bit.ly/2GBR9hN)
 
 If you have any questions, feel free to comment on the article, I'll try my best to be responsive.
 
