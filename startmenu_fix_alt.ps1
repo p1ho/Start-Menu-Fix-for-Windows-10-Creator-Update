@@ -5,15 +5,18 @@
 #
 # Instruction: 
 #
+#     Your start menu is made up of entries from 2 directories (unless you changed it):
+#        C:\ProgramData\Microsoft\Windows\Start Menu
+#        C:\Users\“username”\AppData\Roaming\Microsoft\Windows\Start Menu
+#
 # 0) IMPORTANT:
 #     a. MAKE BACKUPS OF YOUR START MENU FOLDERS AND OPERATE ON THOSE BACKUPS ONLY,
 #        IN CASE THE SCRIPT DOES SOMETHING WRONG.
 #        I'M NOT RESPONSIBLE IF YOUR START MENU BECOMES MORE MESSED UP.
-#     b. The removed duplicates will be in your recycle bin if you need to recover them.
 #
-#     Your start menu is made up of entries from 2 directories (unless you changed it):
-#        C:\ProgramData\Microsoft\Windows\Start Menu
-#        C:\Users\“username”\AppData\Roaming\Microsoft\Windows\Start Menu
+#     b. It won't work if you just copy it to the 2 directories because they are protected and it won't allow the script to rename the files
+#
+#     c. The removed duplicates will be in your recycle bin if you need to recover them.
 #
 # 1) Create copies of these folders (e.g., to desktop)
 # 2) Copy this script inside backup 'Start Menu' Folders
@@ -21,7 +24,9 @@
 # 4) Shift + Right Click at blank space in the folder
 # 5) In the contextual menu, choose "Open PowerShell Window here"
 # 6) Copy and paste the following into the commandline:
+#
 #      powershell.exe -noprofile -executionpolicy bypass -file .\startmenu_fix_alt.ps1
+#
 # 7) Press Enter
 #
 # After the script is run, check that things are fixed appropriately in the folder.

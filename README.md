@@ -43,8 +43,10 @@ If you're **case 2**, use **"startmenu_fix_alt.ps1"**
     a. MAKE BACKUPS OF YOUR START MENU FOLDERS AND OPERATE ON THOSE BACKUPS ONLY,
        IN CASE THE SCRIPT DOES SOMETHING WRONG.
        I'M NOT RESPONSIBLE IF YOUR START MENU BECOMES MORE MESSED UP.
-        
-    b. The removed duplicates will be in your recycle bin if you need to recover them.
+    
+    b. It won't work if you just copy it to the 2 directories because they are protected and it won't allow the script to rename the files
+    
+    c. The removed duplicates will be in your recycle bin if you need to recover them.
      
 1) Create copies of these folders (e.g., to desktop)
 2) Copy this script inside backup 'Start Menu' Folders
@@ -63,3 +65,4 @@ After the script is run, check that things are fixed appropriately in the folder
 If everything looks good, you can copy the folder back and delete the script.
 If you open your start menu right now, you'll notice you may have to rearrange your icons, but other than that everything should work.
 
+I've also appended a test folder, so you can test the script on that first and get a feel of what it does.
